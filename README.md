@@ -7,6 +7,8 @@ AI Agent 助手:
 查询城市天气
 查询自己的IP以及地理位置
 支持一次调用多个工具
+多会话管理
+数据持久化
 流式输出（打字机效果）
 对话历史管理
 日志记录
@@ -16,6 +18,7 @@ Python 3
 requests（HTTP 请求）
 DeepSeek API（兼容 OpenAI 格式）
 Function Calling
+SQL
 -----------------------
 项目结构:
 ├── main.py # 入口
